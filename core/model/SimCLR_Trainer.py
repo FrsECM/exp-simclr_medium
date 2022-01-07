@@ -1,9 +1,6 @@
 import sys
 import os
 
-from torch.optim.lr_scheduler import CosineAnnealingLR
-
-
 sys.path.append(os.getcwd())
 import torch
 from core.loss import SimCLRLoss
@@ -13,7 +10,7 @@ from datetime import datetime
 from torch.utils.tensorboard.writer import SummaryWriter
 from torch.optim import SGD
 from torch.utils.data import DataLoader,SubsetRandomSampler
-from core.utils.schedulers import CyclicCosineDecayLR
+from torch.optim.lr_scheduler import CosineAnnealingLR
 
 
 global NUMWORKER
