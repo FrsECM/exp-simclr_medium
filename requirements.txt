@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+albumentations
+pillow
+matplotlib
+opencv-python
+tqdm
+pydantic
+pydantic[email]
+tensorboard

@@ -1,0 +1,6 @@
+data/
+results_CIFAR/
+results_STL10/
+
+__pycache__/
+*.pyc
